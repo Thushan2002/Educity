@@ -32,6 +32,11 @@ a {
     align-items: center;
 }
 
+.btn.dark-btn {
+    background: #212ea0;
+    color: white;
+}
+
 .btn img {
     width: 20px;
     margin-left: 10px;
