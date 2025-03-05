@@ -58,3 +58,15 @@ textarea {
     display: block;
     margin: 20px 0;
 }
+
+/* Media Query */
+
+@media (max-width: 800px) {
+    .contact {
+        display: block;
+    }
+
+    .contact-col {
+        padding: 20px;
+    }
+}

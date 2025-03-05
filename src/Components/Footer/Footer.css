@@ -13,3 +13,23 @@
     align-items: center;
     gap: 15px;
 }
+
+/* Media Query */
+
+@media (max-width: 600px) {
+    .footer {
+        display: block;
+        text-align: center;
+    }
+
+    .footer ul {
+        flex-direction: row;
+        gap: 0;
+        justify-content: center;
+    }
+
+    .footer ul li {
+        margin: 10px;
+        text-align: center;
+    }
+}
